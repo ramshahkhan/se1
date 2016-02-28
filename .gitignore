@@ -1,0 +1,9 @@
+*.prefs
+*.container
+*.name
+WebServiceOnly/.settings/org.eclipse.wst.common.project.facet.core.xml
+WebServiceOnly/.settings/org.eclipse.wst.common.project.facet.core.prefs.xml
+*.jsdtscope
+*.component
+*.project
+*.classpath
