@@ -14,11 +14,11 @@ import com.model.Message;
 public class MyFirstService {
 
 	@GET
-	@Path("/produce/{param}")
+	@Path("/produce")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Response getJson(@PathParam("param") String msg) {
+	public Response getJson(String msg) {
 
-		final Message message = new Message(msg);
+		final Message message = new Message();
 
 		return Response.status(200).entity(message).build();
 
